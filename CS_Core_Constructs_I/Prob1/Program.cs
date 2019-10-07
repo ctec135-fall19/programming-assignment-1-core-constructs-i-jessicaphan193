@@ -35,12 +35,50 @@ namespace Prob1
     {
         static void Main(string[] args)
         {
-            #region example of a code region
-            // some code
+            #region variable declarations
+            double myDouble = 0.0;
+            double myDoubleDouble = new double();
+            System.Double myDoubleDouble = 0;
             #endregion
 
-            #region another code region
-            // some code
+            #region variable initialization
+            bool BoolOne = true;
+            byte ByteOne = 1000;
+            short ShortOne = 5_974;
+            int IntOne = 78_351_877;
+            long LongOne = 664_185_635_415;
+            char CharOne = '5';
+            float FloatOne = 96.95;
+            double DoubleOne = 0.0;
+            decimal DecimalOne = 22.7m;
+            string StringOne = "chicken";
+            Object ObjectOne = "143";
+
+
+            Console.WriteLine("This is bool: {0}", BoolOne);
+            Console.WriteLine("This is byte: {0:c}", ByteOne);
+            Console.WriteLine("This is short: {0:E}", ShortOne);
+            Console.WriteLine("This is int: {0:x}", IntOne);
+            Console.WriteLine("This is long: {0:e}", LongOne);
+            Console.WriteLine("This is char: {0}", CharOne);
+            Console.WriteLine("This is float: {0:f3}", FloatOne);
+            Console.WriteLine("This is double: {0:c}", DoubleOne);
+            Console.WriteLine("This is decimal: {0:n}", DecimalOne);
+            Console.WriteLine("This is string: {0}", StringOne);
+
+
+
+
+
+
+
+
+
+            #endregion
+
+            #region Max/Min values
+            Console.WriteLine("The minimum value of Double is: {0}", Double.MinValue);
+            Console.WriteLine("The maximum value of Double is: {0}", Double.MaxValue);
             #endregion
         }
     }
